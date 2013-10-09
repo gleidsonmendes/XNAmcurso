@@ -2,13 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>assets\player\player.jpg</Source>
+      <Source>assets\player\player.png</Source>
       <Name>assets\player\player</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\Content\assets\player\player.xnb</Output>
-      <Time>2013-10-09T11:09:44.2967603-03:00</Time>
+      <Time>2013-10-09T13:02:19.7694735-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
