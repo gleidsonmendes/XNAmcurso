@@ -1,0 +1,7 @@
+C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\gunsdontkillpeople.exe
+C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\gunsdontkillpeople.pdb
+C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.csprojResolveAssemblyReference.cache
+C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.exe
+C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.pdb
+C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\Content\assets\player\player.xnb
