@@ -14,6 +14,7 @@ namespace gunsdontkillpeople
         public void Load(ContentManager Content)
         {
             player = Content.Load<Texture2D>(@"assets/player/player");
+            //oooooooooooooooooooooooi
         }
     }
 }
