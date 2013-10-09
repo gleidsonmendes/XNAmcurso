@@ -18,30 +18,27 @@ namespace gunsdontkillpeople
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Imagens imagens;
-        int x;
+ 
+        Player player;
 
-        //Sprite do player
-        public Texture2D player;
-        public Game1()
+       public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferHeight = 600;
             graphics.PreferredBackBufferWidth = 800;
             Content.RootDirectory = "Content";
-        }
+            Imagens.Load(Content);
+       }
 
         protected override void Initialize()
         {
-            x = 100;
             base.Initialize();
+            player = new Player();
         }
 
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            player = Content.Load<Texture2D>(@"assets\player\player");
-
         }
 
         protected override void UnloadContent()
@@ -53,14 +50,9 @@ namespace gunsdontkillpeople
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
-            KeyboardState key = Keyboard.GetState();
 
-            if (key.IsKeyDown(Keys.Left) || key.IsKeyDown(Keys.A)) x -= 5;
-            if (key.IsKeyDown(Keys.Right) || key.IsKeyDown(Keys.D)) x += 5;
-            if (x >= 680) x -= 5;
-            if (x <= 0) x += 5;
-
-
+            player.update(gameTime);
+            
             base.Update(gameTime);
         }
 
@@ -70,7 +62,9 @@ namespace gunsdontkillpeople
 
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
-            spriteBatch.Draw(player, new Vector2(x, 500), new Rectangle(0, 100, 120, 100), Color.White);
+            
+            player.draw(spriteBatch);
+            
             spriteBatch.End();
             base.Draw(gameTime);
         }

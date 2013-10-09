@@ -7,14 +7,13 @@ using Microsoft.Xna.Framework.Content;
 
 namespace gunsdontkillpeople
 {
-    class Imagens
+    public static class Imagens
     {
-        public Texture2D player;
+        public static Texture2D player;
 
-        public void Load(ContentManager Content)
+        public static void Load(ContentManager Content)
         {
             player = Content.Load<Texture2D>(@"assets/player/player");
-            //oooooooooooooooooooooooi
         }
     }
 }
