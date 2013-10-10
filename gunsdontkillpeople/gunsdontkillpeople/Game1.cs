@@ -18,8 +18,8 @@ namespace gunsdontkillpeople
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
- 
-        Player player;
+
+        Game game;
 
        public Game1()
         {
@@ -27,13 +27,13 @@ namespace gunsdontkillpeople
             graphics.PreferredBackBufferHeight = 600;
             graphics.PreferredBackBufferWidth = 800;
             Content.RootDirectory = "Content";
-            Imagens.Load(Content);
        }
 
         protected override void Initialize()
         {
             base.Initialize();
-            player = new Player();
+            Imagens.Load(Content);
+            game = new Game();
         }
 
         protected override void LoadContent()
@@ -51,8 +51,8 @@ namespace gunsdontkillpeople
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            player.update(gameTime);
-            
+            game.update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -60,10 +60,10 @@ namespace gunsdontkillpeople
         protected override void Draw(GameTime gameTime)
         {
 
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.White);
             spriteBatch.Begin();
-            
-            player.draw(spriteBatch);
+
+            game.draw(spriteBatch);
             
             spriteBatch.End();
             base.Draw(gameTime);

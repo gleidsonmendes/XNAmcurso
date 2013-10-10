@@ -108,7 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Carrega\Imagens.cs" />
-    <Compile Include="cenas\game.cs" />
+    <Compile Include="cenas\Game.cs" />
     <Compile Include="Objetos\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />

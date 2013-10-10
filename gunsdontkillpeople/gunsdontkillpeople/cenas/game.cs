@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.GamerServices;
@@ -12,34 +13,34 @@ using Microsoft.Xna.Framework.Media;
 namespace gunsdontkillpeople
 {
 
-    public class game
+    public class Game
     {
 
-        //Player player;
+        Player player;
 
-        public game()
+        public Game()
         {
-
+            iniatialize();
         }
 
-        public void iniatialize()
+        private void iniatialize()
         {
-
+            player = new Player();
         }
 
         public void load()
         {
-        
+                
         }
 
-        public void update(/*GameTime gameTime*/)
+        public void update(GameTime gameTime)
         {
-
+            player.update(gameTime);
         }
 
-        public void draw(SpriteBatch spriteBacth)
+        public void draw(SpriteBatch spBacth)
         {
-
+            player.draw(spBacth);
         }
     }
 }

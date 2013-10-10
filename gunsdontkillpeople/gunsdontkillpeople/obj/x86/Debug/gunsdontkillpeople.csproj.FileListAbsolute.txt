@@ -5,10 +5,10 @@ C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\guns
 C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.exe
 C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.pdb
 C:\Users\Lazarohcm\Documents\Visual Studio 2010\Projects\gunsdontkillpeople\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\Content\assets\player\player.xnb
-C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\Content\assets\player\player.xnb
 C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\gunsdontkillpeople.exe
 C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\gunsdontkillpeople.pdb
 C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.csprojResolveAssemblyReference.cache
 C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.exe
 C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\obj\x86\Debug\gunsdontkillpeople.pdb
+C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\Content\assets\player\player1.xnb

@@ -2,12 +2,12 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>assets\player\player.png</Source>
-      <Name>assets\player\player</Name>
+      <Source>assets\player\player1.png</Source>
+      <Name>assets\player\player1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\Content\assets\player\player.xnb</Output>
+      <Output>C:\Users\gleidson\Documents\repositorio\XNAmcurso\gunsdontkillpeople\gunsdontkillpeople\bin\x86\Debug\Content\assets\player\player1.xnb</Output>
       <Time>2013-10-09T13:55:04.8562912-03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>

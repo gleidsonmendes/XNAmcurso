@@ -14,8 +14,11 @@ namespace gunsdontkillpeople
 {
     public class Player
     {
+
         private int x;
 
+        private bool active_shoot;
+        
         public Player()
         {
             this.initialize();
@@ -24,6 +27,7 @@ namespace gunsdontkillpeople
         public void initialize()
         {
             x = 100;
+            active_shoot = false;
         }
 
         public void update(GameTime gameTime)
@@ -34,12 +38,29 @@ namespace gunsdontkillpeople
             if (key.IsKeyDown(Keys.Right) || key.IsKeyDown(Keys.D)) x += 5;
             if (x >= 680) x -= 5;
             if (x <= 0) x += 5;
+
+            if (key.IsKeyDown(Keys.Space))
+            {
+                active_shoot = true;
+            }
+            else
+            {
+                active_shoot = false;
+            }
         }
 
         public void draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Imagens.player, new Vector2(x, 500), new Rectangle(0, 100, 120, 100), Color.White);
-        }
+            
+            if (active_shoot)
+            {
+                spriteBatch.Draw(Imagens.player_img, new Vector2(x, 100), Imagens.Atirar(), Color.White);
+            }
+            else
+            {
+                spriteBatch.Draw(Imagens.player_img, new Vector2(x, 100), Imagens.Parado(), Color.White);
+            }
 
+        }
     }
 }
